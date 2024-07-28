@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" href="css/all.min.css" as="all" rel="preload"> -->
+    <link rel="stylesheet" href="css/master.css" media="print" onload="this.media='all'" as="style" rel="preload">
+
+    <link rel="stylesheet" href="css/normalize.css" as="normalize" rel="preload">
+
+    <meta name="description"
+        content="This is a brief description of the content of this webpage. It should be relevant and concise, ideally between 150-160 characters.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>Glowing</title>
+</head>
+
+<body>
+    <div class="up" onclick="goUp()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <header>
+        <div class=" top">
+            <p>FREE SHIPPING ON ALL U.S. ORDERS $50+</p>
+        </div>
+        <div class="container">
+            <div class="lines" onclick="open_menu()">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Search Product">
+                <i class="fa-solid fa-search"></i>
+            </div>
+            <div class="image">
+                <img src="images/logo.png" alt="" loading="lazy">
+            </div>
+            <div class="icons">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-star"><span>0</span></i>
+                <div class="cart">
+                    <span>$0.00</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="head-nav">
+            <img src="images/logo.png" alt="" loading="lazy">
+            <button onclick="close_menu()">X</button>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Collection</li>
+            <li>Shop</li>
+            <li>Offer</li>
+            <li>Blog</li>
+        </ul>
+    </nav>
+    <div class="overlay" onclick="close_menu()"></div>
+
+    <section class="section-1">
+        <div class="container">
+            <ul class="has-scrollbar">
+                <li class="item-1" rel="preload">
+                    <h1>Reveal The Beauty of Skin</h1>
+                    <p>Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
+                    <p class="price">Starting at $7.99</p>
+                    <a href="#">Shop Now</a>
+                </li>
+                <li class="item-2" rel="preload">
+                    <h1>Reveal The Beauty of Skin</h1>
+                    <p>Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
+                    <p class="price">Starting at $7.99</p>
+                    <a href="#">Shop Now</a>
+                </li>
+                <li class="item-3" rel="preload">
+                    <h1>Reveal The Beauty of Skin</h1>
+                    <p>Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
+                    <p class="price">Starting at $7.99</p>
+                    <a href="#">Shop Now</a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+    <section class="collection">
+        <div class="container">
+            <ul>
+                <li class="col-1">
+                    <div class="data">
+                        <h2>Summer Collection</h2>
+                        <p>Starting at $17.99</p>
+                    </div>
+                    <p>Shop Now <span>&RightArrow;</span></p>
+                </li>
+                <li class="col-2">
+                    <div class="data">
+                        <h2>What’s New?</h2>
+                        <p>Get the glow</p>
+                    </div>
+                    <p>Discover Now <span>&RightArrow;</span></p>
+                </li>
+                <li class="col-3">
+                    <div class="data">
+                        <h2>But 1 Get 1 </h2>
+                        <p>Starting at $7.99</p>
+                    </div>
+                    <p>Discover Now <span>&RightArrow;</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="best-seller">
+        <div class="container">
+            <div class="main-title">
+                <h2>Under $25</h2>
+                <p>Shop All Products <span>&RightArrow;</span></p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-07.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            <span>$39.00 </span> $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-08.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-09.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-10.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-11.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            <span>$39.00 </span> $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-12.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="best-seller">
+        <div class="container">
+            <div class="main-title">
+                <h2>Our Bestsellers</h2>
+                <p>Shop All Products <span>&RightArrow;</span></p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-01.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            <span>$39.00 </span> $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-02.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-03.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-04.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-05.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            <span>$39.00 </span> $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="images/product-02.jpg" alt="" width="280" height="400" loading="lazy">
+                        <div class="spans">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <p class="price">
+                            $29.00
+                        </p>
+                        <a href="#">Facial Cleanser</a>
+                        <span class="stars">
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            <i class="fa-solid fa-star" style="color: #4e7460;"></i>
+                            5170 reviews
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="best-seller">
+        <div class="container">
+            <div class="big-image">
+                <div class="image">
+                    <p>NEW COLLECTION</p>
+                    <h2>Discover Our Autumn Skincare</h2>
+                    <a href="#">Explore More</a>
+                </div>
+            </div>
+            <div class="small-image">
+                <div class="image">
+                    <h2>25% off Everything</h2>
+                    <p style="font-weight: normal;">Makeup with extended range in colors for every human.</p>
+                    <a href="#">Shop Sale</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="feature-1 feature">
+        <h1 class="heading" style="text-align: center; margin-bottom: 20px;">Why Shop with Glowing?</h1>
+        <div class="container">
+            <div class="card">
+                <img src="images/feature-1.jpg" alt="" width="204" height="23" loading="lazy">
+                <p>Guaranteed PURE</p>
+                <p>All Grace formulations adhere to strict purity standards and will never contain harsh or toxic
+                    ingredients</p>
+            </div>
+            <div class="card">
+                <img src="images/feature-2.jpg" alt="" width="204" height="23" loading="lazy">
+                <p>Completely Cruelty-Free</p>
+                <p>All Grace formulations adhere to strict purity standards and will never contain harsh or toxic
+                    ingredients</p>
+            </div>
+            <div class="card">
+                <img src="images/feature-3.jpg" alt="" width="204" height="23" loading="lazy">
+                <p>Ingredient Sourcing</p>
+                <p>All Grace formulations adhere to strict purity standards and will never contain harsh or toxic
+                    ingredients</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="offer">
+        <div class="container">
+            <div class="offer-banner">
+                <img src="images/offer-banner-1.jpg" alt="" width="305" height="408" loading="lazy">
+                <img src="images/offer-banner-2.jpg" alt="" width="450" height="625" loading="lazy">
+            </div>
+            <div class="info">
+                <p>SPECIAL OFFER <span>-20%</span></p>
+                <h2>Mountain Pine Bath Oil</h2>
+                <p>Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
+                <div class="data">
+                    <span>15 : </span>
+                    <span>21 : </span>
+                    <span>46 : </span>
+                    <span>08 </span>
+                </div>
+                <a href="#">Get Only $39.00</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature">
+        <h1 class="heading" style="text-align: center; margin-bottom: 20px;">Why Shop with Glowing?</h1>
+        <div class="container">
+            <div class="cards">
+                <img src="images/blog-1.jpg" alt="" width="700" height="450" loading="lazy">
+                <a href="#">Find A Store</a>
+                <p>Our Store &rightarrow;</p>
+            </div>
+            <div class="cards">
+                <img src="images/blog-2.jpg" alt="" width="700" height="450" loading="lazy">
+                <a href="#">From Our Blog</a>
+                <p>Our Store &rightarrow;</p>
+            </div>
+            <div class="cards">
+                <img src="images/blog-3.jpg" alt="" width="700" height="450" loading="lazy">
+                <a href="#">Our Story</a>
+                <p>Our Store &rightarrow;</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="uls">
+                <ul>
+                    <li>
+                        <p class="head">Company</p>
+                    </li>
+                    <li>
+                        <p>Find a location nearest you. See <a href="#">Our Stores</a></p>
+                    </li>
+                    <li class="phone">+20-112-8019-635</li>
+                    <li>Mahmoudalngm2004@gmail.com</li>
+                </ul>
+                <ul>
+                    <li>
+                        <p class="head">Useful Links</p>
+                    </li>
+                    <li>
+                        <a href="#">New Product</a>
+                    </li>
+                    <li>
+                        <a href="#">Best Seller</a>
+                    </li>
+                    <li>
+                        <a href="#">Bundle & Save</a>
+                    <li>
+                        <a href="#">Online Gift Card</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p class="head">Information</p>
+                    </li>
+                    <li>
+                        <a href="#">Start a Return</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Shipping FAQ</a>
+                    <li>
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <h1>Good Emails. </h1>
+                    </li>
+                    <li>
+                        <p>Enter your email below to be the first to know about new collections and product launches.
+                        </p>
+                    </li>
+                    <li class="emails"><input type="email" placeholder="Enter Your Email Address">
+                        <input type="submit" name="" id="" value="Subscribe">
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <div class="links">
+                    &copy; 2024 Mahmoud Abd
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <img src="images/logo.png" alt="" loading="lazy" width="179" height="27">
+                <div class="pays">
+                    <img src="images/pay.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js" async></script>
+</body>
+
+</html>
