@@ -38,11 +38,12 @@ function goUp() {
 let revealArr = [".section-1", ".collection", ".best-seller"];
 for (let i = 0; i < revealArr.length; i++) {
     ScrollReveal().reveal(revealArr[i], {
-        duration: 500,
+        duration: 700,
         origin: 'bottom',
         distance: '10px',
         delay: 100,
         easing: 'ease',
+        reset: true
     });
 }
 
