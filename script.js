@@ -35,7 +35,7 @@ function goUp() {
 }
 
 // reveal
-let revealArr = [".section-1", ".collection", ".best-seller"];
+let revealArr = [".section-1", ".collection", ".best-seller", ".feature", ".offer"];
 for (let i = 0; i < revealArr.length; i++) {
     ScrollReveal().reveal(revealArr[i], {
         duration: 700,
